@@ -33,5 +33,5 @@ test("Mark as done", async t => {
     // Assert that the number of completed tasks is now 1.
     // Assert
     .expect(Selector("ul.todo-list li.todo").count).eql(1)
-    .expect(Selector("body").getStyleProperty("background-color")).eql("rgb(145, 29, 29)");
+    .expect(Selector("body").getStyleProperty("background-color")).eql("rgb(98, 35, 35)");
 });
