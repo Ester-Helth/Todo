@@ -3,6 +3,8 @@ import { Selector } from "testcafe"
 fixture`Demo`
     .page("./index.html");
 
+    
+
 // test("Create new todo", async t => {
 //     await t
 //         // Pre-assertion
